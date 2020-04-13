@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "费用共享系统",
+				"navigationBarBackgroundColor":"#265A7E",
+				"navigationBarTextStyle":"white"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "组件"
+		}, {
+			"pagePath": "",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": ""
+		},{
+			"pagePath": "pages/my/my",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "我的"
+		}],
+		"midButton": {
+			"width": "80px",
+			"height": "50px",
+			"text": "文字",
+			"iconPath": "static/image/midButton_iconPath.png",
+			"iconWidth": "24px",
+			"backgroundImage": "static/image/midButton_backgroundImage.png"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
